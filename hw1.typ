@@ -2,7 +2,7 @@
 #let course  = "Electronic Circuits"
 #let name    = "Homework 1"
 #let student = "Alan Fung"
-#let date    = "6 Apr. 2026"
+#let date    = "2 Apr. 2026"
 // -----------------------------------------------------
 
 #import "@preview/zap:0.5.0"
@@ -300,7 +300,7 @@ $
             resistor("rl", (4,4),(4,0), label: $10"k"Omega$)
             draw.content((3,2), $v_o$)
           })
-          This is simply a voltage divider, so $v_o = 24 times (10)/(18.5) = 12.97"V"$.\
+          We can use voltage division to find $v_o = 24 times (10)/(18.5) = 12.97"V"$.\
           $i_o = (24"V")/(18.5"k"Omega) = 1.30"mA"$.
         ]
       )
