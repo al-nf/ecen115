@@ -85,12 +85,12 @@
     import zap: *
     set-style(variant: "ieee")
     isource("i1", (0,8), (0,0), label: $6"mA"$)
-    resistor("r1", (2,4), (2,0), label: $9"k"Omega$)
-    resistor("r2", (2,4), (6,4), label: $1"k"Omega$)
-    resistor("r3", (6,8), (6,4), label: $5"k"Omega$)
-    resistor("r4", (6,4), (6,0), i: $i_2$, label: $15"k"Omega$)
+    resistor("r1", (2,4), (2,0), label: $9"k"Ω$)
+    resistor("r2", (2,4), (6,4), label: $1"k"Ω$)
+    resistor("r3", (6,8), (6,4), label: $5"k"Ω$)
+    resistor("r4", (6,4), (6,0), i: $i_2$, label: $15"k"Ω$)
     isource("i2", (8,0), (8,8), label: $15"mA"$)
-    resistor("r5", (10,8), (10,0), i: $i_1$, label: $7"k"Omega$)
+    resistor("r5", (10,8), (10,0), i: $i_1$, label: $7"k"Ω$)
 
     wire((0,8), (11,8))
     wire((0,0), (11,0))
@@ -141,18 +141,18 @@ $
     import zap: *
     set-style(variant: "ieee")
     vsource("vin", (0,0), (0,8), label: $8"V"$)
-    resistor("r1", (2,8), (6,8), label: $6"k"Omega$)
-    resistor("r2", (2,6), (6,6), label: $3"k"Omega$)
+    resistor("r1", (2,8), (6,8), label: $6"k"Ω$)
+    resistor("r2", (2,6), (6,6), label: $3"k"Ω$)
     wire((0,8), (2,8))
     wire((2,6),(2,8))
     wire((6,6),(6,8))
     wire((6,8),(8,8))
     wire((0,0),(8,0))
-    resistor("r3", (8,0), (8,8), label: $6"k"Omega$)
-    isource("iin", (10,0), (10,8), label: $4"k"Omega$)
+    resistor("r3", (8,0), (8,8), label: $6"k"Ω$)
+    isource("iin", (10,0), (10,8), label: $4"k"Ω$)
     wire((8,8), (10,8))
     wire((8,0), (10,0))
-    resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Omega$)
+    resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Ω$)
     wire((10,0), (13,0))
     earth("gnd", (6,0))
     node("a", (13,8), label: $a$)
@@ -168,12 +168,12 @@ $
         import zap: *
         set-style(variant: "ieee")
         vsource("vin", (0,0), (0,8), label: $8"V"$)
-        resistor("r1", (0,8), (5,8), label: $2"k"Omega$)
+        resistor("r1", (0,8), (5,8), label: $2"k"Ω$)
         wire((0,0),(8,0))
-        resistor("r3", (5,8), (10,8), label: $6"k"Omega$)
+        resistor("r3", (5,8), (10,8), label: $6"k"Ω$)
         vsource("vin2", (10,0), (10,8), label: $24"V"$)
         wire((8,0), (10,0))
-        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Omega$)
+        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Ω$)
         wire((10,0), (13,0))
         earth("gnd", (6,0))
         node("a", (13,8), label: $a$)
@@ -186,12 +186,12 @@ $
         import zap: *
         set-style(variant: "ieee")
         vsource("vin", (0,0), (0,8), label: $8"V"$)
-        resistor("r1", (0,8), (10,8), label: $8"k"Omega$)
+        resistor("r1", (0,8), (10,8), label: $8"k"Ω$)
         wire((0,8), (2,8))
         wire((0,0),(8,0))
         vsource("vin2", (10,0), (10,8), label: $24"V"$)
         wire((8,0), (10,0))
-        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Omega$)
+        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Ω$)
         wire((10,0), (13,0))
         earth("gnd", (6,0))
         node("a", (13,8), label: $a$)
@@ -204,12 +204,12 @@ $
         import zap: *
         set-style(variant: "ieee")
         vsource("vin", (0,0), (0,8), label: $8"V"$)
-        resistor("r1", (0,8), (10,8), label: $8"k"Omega$)
+        resistor("r1", (0,8), (10,8), label: $8"k"Ω$)
         wire((0,8), (2,8))
         wire((0,0),(8,0))
         vsource("vin2", (10,0), (10,8), label: $24"V"$)
         wire((8,0), (10,0))
-        resistor("r3", (13,8), (13,0), i: $i_"sc"$, label: $8.5"k"Omega$)
+        resistor("r3", (13,8), (13,0), i: $i_"sc"$, label: $8.5"k"Ω$)
         wire((10,8),(13,8))
         wire((10,0), (13,0))
         earth("gnd", (6,0))
@@ -221,19 +221,19 @@ $
       #circuit({
         import zap: *
         set-style(variant: "ieee")
-        resistor("r1", (0,0), (0,8), label: $8"k"Omega$)
+        resistor("r1", (0,0), (0,8), label: $8"k"Ω$)
         wire((0,8), (10,8))
         wire((0,0),(8,0))
         wire((10,0), (10,8), label: $24"V"$)
         wire((8,0), (10,0))
-        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Omega$)
+        resistor("r3", (10,8), (13,8), i: $i_o$, label: $8.5"k"Ω$)
         wire((10,0), (13,0))
         earth("gnd", (6,0))
         node("a", (13,8), label: $a$)
         node("b", (13,0), label: $b$)
         draw.content((13,4), $v_o$)
       })
-      The 8k$Omega$ resistor is shorted, so $R_"th" = 8.5"k"Omega$.
+      The 8k$Ω$ resistor is shorted, so $R_"th" = 8.5"k"Ω$.
 
       $v_"th" = i_"sc" R_"th" = (24 times 8.5)/8.5 "V"= 24"V"$.
 
@@ -243,7 +243,7 @@ $
         import zap: *
         set-style(variant: "ieee")
         vsource("vth", (0,0), (0,4), label: $24"V"$)
-        resistor("rth", (0,4), (4,4), label: $8.5"k"Omega$)
+        resistor("rth", (0,4), (4,4), label: $8.5"k"Ω$)
         wire((0,0),(4,0))
         node("a", (4,4), label: $a$)
         node("b", (4,0), label: $b$)
@@ -261,7 +261,7 @@ $
             import zap: *
             set-style(variant: "ieee")
             vsource("vth", (0,0), (0,4), label: $24"V"$)
-            resistor("rth", (0,4), (4,4), i: $i_o$, label: $8.5"k"Omega$)
+            resistor("rth", (0,4), (4,4), i: $i_o$, label: $8.5"k"Ω$)
             wire((0,0),(4,0))
             node("n", (4,4))
             node("n", (4,0))
@@ -278,30 +278,30 @@ $
             import zap: *
             set-style(variant: "ieee")
             vsource("vth", (0,0), (0,4), label: $24"V"$)
-            resistor("rth", (0,4), (4,4), i: $i_o$,label: $8.5"k"Omega$)
+            resistor("rth", (0,4), (4,4), i: $i_o$,label: $8.5"k"Ω$)
             wire((0,0),(4,0))
             wire((4,4),(4,0))
             draw.content((3,2), $v_o$)
           })
           The voltage over any short circuit is 0, so $v_o = 0"V"$.\
-          $i_o = (24"V")/(8.5"k"Omega)$ = 2.82mA.
+          $i_o = (24"V")/(8.5"k"Ω)$ = 2.82mA.
         ]
       )
       \ \
       #part("iii",
-        [For a 10 k$Omega$ load:],
+        [For a 10 k$Ω$ load:],
         [
           #circuit({
             import zap: *
             set-style(variant: "ieee")
             vsource("vth", (0,0), (0,4), label: $24"V"$)
-            resistor("rth", (0,4), (4,4), i: $i_o$,label: $8.5"k"Omega$)
+            resistor("rth", (0,4), (4,4), i: $i_o$,label: $8.5"k"Ω$)
             wire((0,0),(4,0))
-            resistor("rl", (4,4),(4,0), label: $10"k"Omega$)
+            resistor("rl", (4,4),(4,0), label: $10"k"Ω$)
             draw.content((3,2), $v_o$)
           })
           We can use voltage division to find $v_o = 24 times (10)/(18.5) = 12.97"V"$.\
-          $i_o = (24"V")/(18.5"k"Omega) = 1.30"mA"$.
+          $i_o = (24"V")/(18.5"k"Ω) = 1.30"mA"$.
         ]
       )
     ]
