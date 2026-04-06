@@ -77,7 +77,6 @@
 
 #header
 
-// ── Problem 1 ────────────────────────────────────────
 #problem(1)[
   Analyze the current divider circuit given below and determine the values of the currents $i_1$, $i_2$, and the voltage $v_o$.
 
@@ -133,7 +132,6 @@ $
 
 ]
 \ \ \ \ \ \ \
-// ── Problem 2 ────────────────────────────────────────
 #problem(2, breakable: true)[
   Analyze the circuit given below. Show all the steps of your work clearly.
 
